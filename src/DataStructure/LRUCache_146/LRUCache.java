@@ -1,4 +1,4 @@
-package DataStructure.LRUCache_Num146;
+package DataStructure.LRUCache_146;
 
 import java.util.HashMap;
 
