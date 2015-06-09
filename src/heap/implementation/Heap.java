@@ -1,4 +1,4 @@
-package heap.implementation;
+package Heap.implementation;
 
 import java.util.Arrays;
 
