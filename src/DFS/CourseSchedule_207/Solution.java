@@ -9,6 +9,7 @@ public class Solution {
         //if a node is checked in a loop, no need next time!
         int[] visited=new int[numCourses];//0 for non-visited,1 for visiting,2 for visited!
         //if data structure not suitable, change it!!!
+        //decide which direction of define is better: pre->post so that visited node may not be dfs again!
         for(int i=0; i<prerequisites.length; i++)
         	map[prerequisites[i][1]][prerequisites[i][0]]=1;
         
