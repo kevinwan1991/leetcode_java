@@ -1,4 +1,4 @@
-package Math.PowerOfTwo;
+package Math.PowerOfTwo_231;
 
 public class Solution {
     public boolean isPowerOfTwo(int n) {
