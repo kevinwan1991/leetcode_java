@@ -1,6 +1,7 @@
 package Array.ContainDuplicates_217;
 
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class Solution {
     public boolean containsDuplicate(int[] nums) {
@@ -14,6 +15,7 @@ public class Solution {
         	else
         		map.put(nums[i], true);
         }
+        HashSet<Integer> set=new HashSet<Integer>();
         return false;
     }
 }

@@ -1,4 +1,4 @@
-package DFS.leastCommonAncestor;
+package DFS.leastCommonAncestor_236;
 
 public class Solution {
 	public Node leastCommonAncestor(Node root, Node n1, Node n2){

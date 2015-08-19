@@ -1,4 +1,4 @@
-package DFS.leastCommonAncestor;
+package DFS.leastCommonAncestor_236;
 
 public class Node {
     public int value;
